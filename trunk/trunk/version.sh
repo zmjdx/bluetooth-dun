@@ -1,6 +1,6 @@
 #! /bin/bash
 
-svnversion=`svnversion AndroidManifest.xml`
+svnversion=`svnversion .project`
 
 baseVersion='0.99'
 OUT_FILE="res/values/myversion.xml";
