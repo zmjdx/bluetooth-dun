@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+<meta charset="UTF-8" content="text/html;" http-equiv="Content-Type">
+<title>About</title>
+
+<style type="text/css">
+.bt{
+	color: blue; font-weight: bold;	
+}
+.dun{
+	color: dodgerblue; font-weight: bold;
+}
+
+.stribog{
+	font-weight:bold;
+}
+.green{
+	color:green;
+}
+.cyan{
+	color:cyan;
+}
+a.gplay{	
+	color:#0066CC;
+	font-weight:bold;
+}
+</style>
+
+</head>
+
+<body style="background-color: black; color: white;">
+
+<h3 style="color: red;">You Need ROOT'ed device!</h3>
+<h3><span class="dun">"btDUN"</span> is
+<span class="bt">FREE</span>.</h3>
+<h2>This Application allow you to have <span style="font-weight: bold;">dial up 
+networking via <span style="color: blue; font-weight: bold;">bluetooth</span></span></h2>
+<h3>This is extremly usefull if you cannot connect to internet on your Android 
+Device, but have other cell phone that have Internet access.</h3>
+<h4><span style="color: orange;">Warning: </span>This application is not so easy to 
+use, you need to have knowledge of using Dial Up Networking!</h4>
+<p>What you need ! </p>
+<ol>
+	<li>Android device with Blluetooth</li>
+	<li>Cell phone (target phone) with Internet Access and Bluetooth</li>
+</ol>
+<p>How to use it?</p>
+<ul>
+	<li>Please be sure that target phone can connect to internet, and bluetooth enabled </li>
+	<li>Start "btDUN" on your Android device and click "Connect" button</li>
+	<li>It will get list of all "paired" devices</li>
+	<li>Select your "target phone" if present in list, or scan for it - (press 
+	"Scan for devices")</li>
+	<li>If "target phone" is configured properly - it will connect to Android device and You will see your IP number, 
+	if you have troubles connecting to "target phone" - may use <a class="gplay" href="http://market.android.com/details?id=com.stribogkonsult.bluetooth.DUN.treminal">"bt Terminal"</a> 
+	from <a href="http://www.stribogkonsult.com">Stribog Konsult Ltd</a></li>	
+</ul>
+<p>Troubleshooting with <a class="gplay" href="http://market.android.com/details?id=com.stribogkonsult.bluetooth.DUN.treminal">"bt Terminal"</a> </p>
+<ol>
+	<li>Start <a class="gplay" href="http://market.android.com/details?id=com.stribogkonsult.bluetooth.DUN.treminal">"bt Terminal"</a>  on your Android device</li>
+	<li>Choose "target phone" from list or scan for it - if not present</li>
+	<li>Tap on "target phone" in list - to conect</li>
+	<li> When connected to "target phone"</li>
+		<ul>
+			<li>Type <code>(AT+COPS?)</code> - to get operator</li>
+			<li>Type <code>(AT+CGDCONT=)</code> - setup accesspoint</li>
+			<li>...a lot of other usefull commands</li>
+		</ul>
+</ol>
+<p>On <b class="cyan">CyanogenMod </b> You can find info about target phone in <b class="green">/etc/apns-conf.xml</b>.</p>
+<br>
+<p>This is experimental release! Some services - as Internet calls may not working properly using such networking. Application not support username/password login to GSM network on this time</p>
+<p> <span class="dun">"btDUN"</span> was tested with CyanogenMod (CM7) and rooted Acer Iconia Tab A500 Android 4.0.3 and some Nokia phones as targets</p>
+<h5><span class="dun">"btDUN"</span> use parts of BluetoothChat (com.example.android.BluetoothChat) code</h5>
+
+<h5><span class="dun">"btDUN"</span> release contain "chat" and "rfcomm" executables. 
+They are build as desctibed in 
+<a class="gplay" href="http://forum.cyanogenmod.com/topic/37078-how-to-tether-your-gtab-to-your-blackberry-phone-via-bluetooth/">cyanogenmod forum</a> 
+ (ARMv6 instruction set).
+If these executables exists on your device, application will use existing. </h5>
+
+
+
+
+<br>
+</body>

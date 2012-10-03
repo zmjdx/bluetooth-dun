@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, MainActivity</string>
+    <string name="app_name">bt DUN</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_found">No devices found</string>
+    <string name="device_mac">Device MAC</string>
+    <string name="run_script">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="access_point">Access point name</string>
+    <string name="about_text">About bluetooth DUN</string>
+    <string name="string_menu_disconnect">Disconnect</string>
+    <string name="string_menu_connect">Connect</string>
+    <string name="string_menu_about">About</string>
+</resources>
