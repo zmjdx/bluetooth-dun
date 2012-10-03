@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-        <integer name="versionCode">1</integer>
-        <string name="versionName">0.99.Unversioned file</string>
-        <string name="build_at">01-Oct-2012 16:51</string>
+        <integer name="versionCode">4</integer>
+        <string name="versionName">0.99.4</string>
+        <string name="build_at">03-Oct-2012 14:25</string>
 </resources>
